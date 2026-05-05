@@ -1,0 +1,36 @@
+COUNTRY="India"
+class ace:
+    col="ACE"
+    def give_details(self,a,b,c,d):
+        self.tot=a+b+c
+        self.name=d
+    def display(self):
+        print("1 Name:",self.name)
+        print("2 Marks:",self.tot)
+        print("3 College:",ace.col)
+        print("4 Country:",COUNTRY)
+class bvrit:
+    col="BVRIT"
+    def set_dim(self,a,b,c,d):
+        self.tot=a+b+c
+        self.name=d
+    def show(self):
+        print("1 Name:",self.name)
+        print("2 Marks:",self.tot)
+        print("3 College:",bvrit.col)
+        print("4 Country:",COUNTRY)
+
+
+
+a=ace()
+a1=ace()
+b=bvrit()
+b1=bvrit()
+a.give_details(10,20,30,"sindu")
+a1.give_details(20,30,40,"krupa")
+b.set_dim(40,50,60,"bindu")
+b1.set_dim(60,70,80,"cherry")
+a.display()
+a1.display()
+b.show()
+b1.show()
